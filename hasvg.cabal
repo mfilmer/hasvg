@@ -1,0 +1,17 @@
+Name:             HASVG
+Version:          0.0.1
+Cabal-Version:    >= 1.2
+Build-Type:       Simple
+License:          GPL-3
+License-File:     LICENSE
+Copyright:        (c) 2014 Matthew Filmer
+Author:           Matthew Filmer
+Stability:        Alpha
+Category:         Image
+Synopsis:         An SVG reading library
+
+Library
+  Build-Depends:       base
+  hs-source-dirs:      src
+  Exposed-modules:
+    Codec.Picture.SVG.Read
