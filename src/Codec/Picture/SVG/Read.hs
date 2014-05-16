@@ -1,3 +1,7 @@
-module Codec.Picture.SVG.Read where
+module Codec.Picture.SVG.Read
+  ( readSVG )
+where
 
-readSVG = "sup?"
+import Codec.Picture.SVG.Tags
+
+readSVG = tag1

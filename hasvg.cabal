@@ -11,7 +11,7 @@ Category:         Image
 Synopsis:         An SVG reading library
 
 Library
-  Build-Depends:       base
+  Build-Depends:       base, xml
   hs-source-dirs:      src
   Exposed-modules:
-    Codec.Picture.SVG.Read
+    Codec.Picture.SVG.Read, Codec.Picture.SVG.Tags
